@@ -47,7 +47,7 @@ const (
 	TOKEN_KW_BREAK					   // break
 	TOKEN_KW_RETURN					   // return
 	TOKEN_KW_GOTO					   // goto
-	TOkEN_KW_BLOCK					   // block
+	TOKEN_KW_BLOCK					   // block
 	TOKEN_KW_DEF					   // def
 	TOKEN_KW_OBJ					   // obj
 	TOKEN_KW_WHEN					   // when
@@ -77,7 +77,7 @@ var keywords = map[string]int{
 	"break": TOKEN_KW_BREAK,					   // break
 	"return": TOKEN_KW_RETURN,					   // return
 	"goto": TOKEN_KW_GOTO,					   // goto
-	"block": TOkEN_KW_BLOCK,					   // block
+	"block": TOKEN_KW_BLOCK,					   // block
 	"def": TOKEN_KW_DEF,					   // def
 	"obj": TOKEN_KW_OBJ,					   // obj
 	"when": TOKEN_KW_WHEN,					   // when
